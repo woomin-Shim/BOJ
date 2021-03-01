@@ -4,7 +4,7 @@ int map[21][21];
 
 int search1(int first, int i, int j) {
 	int cnt = 1;
-	for (; first == map[i][j + 1]; j++) cnt++;  //for(초기값, 조건문, 증가값)
+	for (; first == map[i][j + 1]; j++) cnt++;  //for(initial value, conditional statements, increase or decrease)
 	return cnt == 5 ? 1 : 0;
 }
 int search2(int first, int i, int j) {
